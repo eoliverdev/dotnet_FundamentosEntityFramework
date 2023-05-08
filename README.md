@@ -1,6 +1,6 @@
-# dotnet_FundamentosEntityFramework
+# [.NET] Fundamentos Entity Framework
 
-##Itens de atenção em Performace:
+## Itens de atenção em Performace:
 
  AsNoTracking
  Async e Await
