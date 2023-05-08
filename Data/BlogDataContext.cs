@@ -10,7 +10,7 @@ namespace Blog.Data
         public DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options) 
-            =>  options.UseSqlServer("Server=localhost\\SQLEXPRESS02;Database=master;Trusted_Connection=True;TrustServerCertificate=True");
+            =>  options.UseSqlServer("Server=localhost\\SQLEXPRESS02;Database=Blog;Trusted_Connection=True;TrustServerCertificate=True");
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new CategoryMap());
